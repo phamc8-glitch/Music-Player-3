@@ -15,9 +15,9 @@ let songIndex = 2;
 
 function loadSong(song) {
   title.innerText = song;
-  audio.src = `music/${song}.mp3`;
+  audio.src = `./music/${song}.mp3`;
   //cover.src = "images/addison raw fame is a gun.jpg/"
-  cover.src = `images/${song}.jpg`;
+  cover.src = `./images/${song}.jpg`;
 }
 
 loadSong(songs[songIndex]);
