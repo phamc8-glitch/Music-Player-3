@@ -10,7 +10,7 @@ const progressContainer = document.getElementById('progress-container');
 const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
-const songs = ['Addison Raw fame is a gun', 'Billie Elish chihiro', 'Fuji Kaze matsuri', 'Illit magnetic', 'Ive love dive'];
+const songs = ['addison raw fame is a gun', 'billie elish chihiro', 'fuji kaze matsuri', 'illit magnetic', 'ive love dive'];
 let songIndex = 2;
 
 function loadSong(song) {
